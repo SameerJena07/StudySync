@@ -48,7 +48,7 @@ StudySync/
 
 ## 📸 Screenshots
 
-(Add screenshots of your project here if available)
+I will added later
 
 ---
 
