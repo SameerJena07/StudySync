@@ -227,3 +227,34 @@ body {
     height: 100%;
     width: 100%;
 }
+
+@media screen and (min-width:768px) {
+    .main-section{
+        flex-direction: row;
+    }
+
+    .content-left{
+        max-width: 50%;
+        text-align: left;
+    }
+    .section-title{
+        padding-left: 0;
+    }
+    .button-group{
+        justify-content: flex-start;
+    }
+    .section-label{
+        font-size: 0.9rem;
+    }
+    .section-title{
+        font-size: 3rem;
+    }
+    .image-container{
+        height: 65vh;
+    }
+    .section-description{
+        font-size: 1.1rem;
+        color: var(--gray);
+        width: 79%;
+    }
+}
