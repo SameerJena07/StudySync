@@ -209,3 +209,21 @@ body {
 .tour-button:hover {
     background-color: #444;
 }
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container {
+    border-radius: 1.225rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 50vh;
+}
+
+.section-image{
+    height: 100%;
+    width: 100%;
+}
