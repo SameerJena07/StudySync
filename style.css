@@ -179,3 +179,33 @@ body {
     font-size: 1.13rem;
     color: var(--dark-gray);
 }
+
+.button-group{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.start-button, .tour-button{
+    border: none;
+    border-radius: 0.375rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    transform: all 0.1s;
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+.tour-button{
+    background-color: var(--dark-gray);
+}
+
+.start-button:hover {
+    background-color: var(--accent-color);
+}
+.tour-button:hover {
+    background-color: #444;
+}
