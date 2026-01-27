@@ -411,7 +411,7 @@ body {
     background-color: #7d78b1;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:769px) {
     .feature-grid{
         grid-template-columns: repeat(1, 1fr);
     }
