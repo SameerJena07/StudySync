@@ -27,9 +27,7 @@ body {
     padding: 0.2rem;
 }
 
-.header{
-    border-bottom: 2px solid var(--light-gray);
-}
+/* header section */
 
 .header-content{
     max-width: 1280px;
@@ -70,7 +68,6 @@ body {
     .nav {
         display: flex;
     }
-    
 }
 
 .nav-link {
@@ -271,14 +268,14 @@ body {
 .company-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 3.6rem;
+    gap: 3.5rem;
     padding: 1rem;
     background-color: var(--light-gray);
     border: none;
     border-radius: 0.625rem;
     margin-top: 2rem;
     margin-bottom: 10rem;
-    padding: 2rem 2.5rem;
+    padding: 1.5rem 2.5rem;
 }
 
 .company-logo{
@@ -294,6 +291,17 @@ body {
     height: 1.56rem;
 }
 
-.logo-text{
+.logo-txt{
     font-size: 1rem;
+}
+
+@media screen and (min-width:640px) {
+    .company-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .company-title{
+        font-size: 1.8rem;
+        font-weight: bold;
+        color: var(--text-color);
+    }
 }
