@@ -274,7 +274,7 @@ body {
     border: none;
     border-radius: 0.625rem;
     margin-top: 2rem;
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
     padding: 1.5rem 2.5rem;
 }
 
@@ -304,4 +304,37 @@ body {
         font-weight: bold;
         color: var(--text-color);
     }
+}
+
+.feature-container{
+    background-color: var(--light-gray);
+    padding: 2.5rem 0;
+    text-align: center;
+}
+
+.feature-content{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-title{
+    font-size: 1.8rem;
+    color: var(--text-color);
+}
+
+.main-description{
+    color: var(--gray);
+    font-size: 1rem;
+}
+
+.feature-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
