@@ -265,17 +265,20 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
+    animation: slideFromLeft 1s ease forwards;
 }
 
 .company-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 3.6rem;
     padding: 1rem;
     background-color: var(--light-gray);
     border: none;
     border-radius: 0.625rem;
     margin-top: 2rem;
+    margin-bottom: 10rem;
+    padding: 2rem 2.5rem;
 }
 
 .company-logo{
@@ -288,7 +291,7 @@ body {
 }
 
 .svg-img{
-    height: 1.2rem;
+    height: 1.56rem;
 }
 
 .logo-text{
