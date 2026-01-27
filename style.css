@@ -258,3 +258,39 @@ body {
         width: 79%;
     }
 }
+
+.company-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.company-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 1rem;
+    background-color: var(--light-gray);
+    border: none;
+    border-radius: 0.625rem;
+    margin-top: 2rem;
+}
+
+.company-logo{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--gray);
+    gap: 0.5rem;
+}
+
+.svg-img{
+    height: 1.2rem;
+}
+
+.logo-text{
+    font-size: 1rem;
+}
