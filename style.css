@@ -416,3 +416,33 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* Testimonial part */
+
+.testimonial-container{
+    background-color: var(--background-color);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.testimonial-title{
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.testimonial-card{
+    
+}
