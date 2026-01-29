@@ -481,3 +481,32 @@ body {
     font-size: 0.875rem;
     color: var(--dark-gray);
 }
+
+.newsletter-container{
+    background-color: var(--background-color);
+    padding: 2rem;
+    max-width: 1280px;
+    height: 43vh;
+    margin: 0 auto;
+}
+
+.newsletter-content{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--light-gray);
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.news-left{
+    width: 50%;
+    height: 100%;
+}
+
+.news-left img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
