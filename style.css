@@ -528,7 +528,7 @@ body {
     width: 98%;
 }
 
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 789px) {
     .news-left{
         display: block;
         width: 50%;
@@ -626,6 +626,7 @@ body {
     text-align: left;
     display: flex;
     justify-content: space-between;
+    gap: 4rem;
 }
 
 .footer-top{
@@ -673,3 +674,71 @@ body {
     font-size: 1rem;
     color: var(--dark-gray);
 }
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 4rem;
+    padding: 2rem 4rem;
+    width: 100%;
+    padding-top: 1.9rem;
+}
+
+.footer-grid-heading{
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-link{
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+}
+
+.footer-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    margin-top: 1rem;
+    
+}
+
+.footer-copyright{
+    font-size: 0.875rem;
+    color: var(--dark-gray);
+    padding-bottom: 2rem;
+    padding-top: 1.1rem;
+    border-top: 1px solid #E5E7EB;
+}
+
+@media screen and (max-width:789px) {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-top{
+        padding-left: 3rem;
+        margin-right: 5rem;
+    }
+    .footer-grid{
+        margin-right: 3rem;
+    }   
+}
+
+@media screen and (max-width: 655px) {
+    .footer-top{
+        padding-left: 1rem;
+        margin-left: 5rem;
+    }
+    .footer-grid{
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 5rem;
+        margin-right: 3rem;
+    }
+}
+
