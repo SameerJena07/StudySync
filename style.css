@@ -742,3 +742,9 @@ ul {
     }
 }
 
+@media screen and (max-width: 520px) {
+    .footer-grid{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+}
