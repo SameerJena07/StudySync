@@ -60,7 +60,8 @@ git clone https://github.com/SameerJena07/StudySync.git
 
 2. Open the project folder  
 3. Double-click on `index.html`  
-4. The project will open in your web browser  
+4. The project will open in your web browser
+5. Change all the image link for beautiful UI
 
 ---
 
